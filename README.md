@@ -33,5 +33,13 @@ Check list of all running containers
 #docker ps -a
 ---
 
+4. Save your container
+
+You can save a container as an image, which allows you to recreate containers with the same state
+
+---
+#docker commit <container_id> <new_image_name>:<tag>
+---
+
 
 
