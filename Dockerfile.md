@@ -39,8 +39,8 @@ COPY cih .
 ---
 
 2. Build Image & run image
-# docker build -t my-app .
-# docker run -d -p 8080:80 my-app
+# docker build -t app-image .
+# docker run -d  -p 8080:80 --name app-container app-image 
 
 
 
